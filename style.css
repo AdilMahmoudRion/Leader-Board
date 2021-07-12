@@ -31,7 +31,7 @@ body {
 }
 .player {
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: wrap;
 	align-items: center;
 	justify-content: center;
 	margin: 20px 10px 20px 0px;
@@ -75,6 +75,36 @@ span {
 span:hover {
 	border-bottom: 2px solid #562eff;
 }
+.latest-course {
+	margin-top: 20px;
+}
+.courses {
+	flex-flow: row;
+}
 .course-cover {
 	width: 100%;
+}
+.course {
+	padding: 10px;
+}
+.star-rating {
+	color: #ffc014;
+}
+.rating {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+.timer {
+	/* margin: 0%;
+	padding: 0%; */
+	background-color: #ff4a5f6f;
+	color: #ee0c26;
+	border-radius: 10pc;
+	padding: 5px;
+}
+.ret {
+	margin: 0%;
+	
+	display: inline-block;
 }
