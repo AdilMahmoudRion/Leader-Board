@@ -1,0 +1,80 @@
+body {
+	background: #e5e5e5;
+	margin: 0;
+	padding: 0;
+}
+
+/* Top player list */
+.Top-Player-section {
+	background: #ffff;
+	margin: 0 15%;
+	padding: 0 3%;
+	border-radius: 5px;
+}
+.title {
+	font-weight: 600;
+	font-size: 24px;
+	color: #562eff;
+	margin: 0 0 30px 0;
+}
+.player-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.player-photo {
+	width: 40%;
+	/* padding: 30px; */
+}
+.player-photo:hover {
+	border: 2px solid #562eff;
+	border-radius: 50%;
+}
+.player {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 10px 20px 0px;
+}
+.Player-name {
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+}
+.Player-name:hover {
+	border-bottom: 2px solid #562eff;
+}
+.break-point {
+	border-bottom: 2px solid green;
+}
+.top-blog {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.blog-photo {
+	width: 50%;
+}
+.blog {
+	flex-wrap: nowrap;
+	margin: 20px 10px 20px 0px;
+}
+.headline {
+	margin: 0 20px;
+}
+.author-name {
+	color: #9f9f9f;
+	font-size: 16px;
+}
+span {
+	color: #562eff;
+	font-size: 16px;
+	margin-left: 5px;
+}
+span:hover {
+	border-bottom: 2px solid #562eff;
+}
+.course-cover {
+	width: 100%;
+}
