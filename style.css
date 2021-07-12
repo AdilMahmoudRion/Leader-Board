@@ -46,9 +46,7 @@ body {
 .Player-name:hover {
 	border-bottom: 2px solid #562eff;
 }
-.break-point {
-	border-bottom: 2px solid green;
-}
+
 .top-blog {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -80,25 +78,22 @@ span:hover {
 }
 .courses {
 	justify-content: space-between;
-	flex-flow: row;
+	flex-flow: wrap;
 	padding-bottom: 20px;
 }
 .course {
 	padding: 10px;
 	border-radius: 20px;
-	background: #e0e0e0;
-	
+	background: #f8f5f5;
+	flex-basis: 30%;
 }
-.course:hover{
+.course:hover {
 	box-shadow: 5px 5px 23px #a8a8a8, -5px -5px 23px #ffffff;
 }
 .course-cover {
 	width: 100%;
 }
-.course {
-	/* margin: 20px 10px 20px 0px; */
-	flex-basis: 30%;
-}
+
 .star-rating {
 	color: #ffc014;
 }
