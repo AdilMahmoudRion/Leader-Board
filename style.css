@@ -121,6 +121,10 @@ span:hover {
 
 /* ----------------media Query----------------- */
 @media screen and (max-width: 688px) {
+	.title {
+		margin-left: 20px;
+		padding: 20px 0 0px 0;
+	}
 	.Top-Player-section {
 		margin: 0 5px;
 		padding: 0 0;
@@ -134,7 +138,7 @@ span:hover {
 	.player {
 		margin: 10px;
 		border-radius: 10px;
-		background: #f8f5f5;
+		/* background: #f8f5f5; */
 		padding: 10px;
 	}
 	.player:hover {
@@ -144,19 +148,33 @@ span:hover {
 		width: 90%;
 		padding: 10px;
 	}
+	.top-blog{
+		margin: 10px;
+	}
 	.blog {
 		flex-wrap: wrap;
+		margin: 0%;
 	}
 	.blog-photo {
 		width: 100%;
 	}
-	.headline{
+	.headline {
 		margin: 0%;
 	}
-	h3{
+	h3 {
 		margin: 0px;
 	}
-	.author-name{
-		margin:5px 0 0 0;
+	.author-name {
+		margin: 5px 0 0 0;
+	}
+	.courses {
+		padding: 0;
+	}
+	.courses:hover {
+		box-shadow: none;
+	}
+	.course {
+		flex-basis: 100%;
+		margin-bottom: 20px;
 	}
 }
