@@ -148,7 +148,7 @@ span:hover {
 		width: 90%;
 		padding: 10px;
 	}
-	.top-blog{
+	.top-blog {
 		margin: 10px;
 	}
 	.blog {
@@ -176,5 +176,14 @@ span:hover {
 	.course {
 		flex-basis: 100%;
 		margin-bottom: 20px;
+	}
+	.star-icon {
+		font-size: 14px;
+	}
+	.timer {
+		font-size: 14px;
+	}
+	.course-creator {
+		margin: 9px 0 5px 0;
 	}
 }
